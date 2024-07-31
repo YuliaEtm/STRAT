@@ -66,7 +66,8 @@ def test_add_theme(browser):
     browser.find_element(By.XPATH, locator_settings.BUTTON_NEW_THEME).click()
 
     #  Тематика есть в списке
-    wait_present(browser, 'XPATH', locator_settings.SEARCH_BY_NAME, ' тематика не создана')
+    wait_present(browser, 'XPATH', locator_settings.SEARCH_BY_NAME
+                 , ' тематика не создана')
     time.sleep(5)
 
 
