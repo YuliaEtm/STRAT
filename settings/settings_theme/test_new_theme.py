@@ -67,7 +67,7 @@ def test_add_theme(browser):
 
     #  Тематика есть в списке
     wait_present(browser, 'XPATH', locator_settings.SEARCH_BY_NAME
-                 , ' тематика не создана')
+                 git remote add origin https://github.com/YuliaEtm/STRAT.git, ' тематика не создана')
     time.sleep(5)
 
 
